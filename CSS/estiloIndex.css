@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(#2543a7, #a0e6ae) repeat;
+
+    /*background:
+    linear-gradient(217deg, rgba(151, 220, 24, 0.8), rgba(137, 180, 55, 0) 70.71%),
+    linear-gradient(127deg, rgba(231, 21, 38, 0.8), rgba(148, 35, 44, 0) 70.71%),
+    linear-gradient(95deg, rgba(238, 142, 25, 0.8), rgba(148, 35, 44, 0) 70.71%),
+    linear-gradient(336deg, rgba(41, 139, 231, 0.8), rgba(83, 135, 183, 0) 70.71%);*/
+
+    /*background-color: rgb(84, 187, 231);*/
+}
+
+.inicio{
+    background-color: rgba(236, 236, 236, 0.646);
+    width: 30%;
+    text-align: center;
+    margin: 90px auto;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.inicio h2{
+    margin: 15px;
+    color: whitesmoke;
+}
+
+.inicio img{
+    width: 40%;
+}
+
+.estiloDato{
+    /*background-color: aqua;*/
+    margin: 15px;
+    height: 60px;
+    align-content: center;
+    text-align: start;
+    padding: 10px;
+}
+
+.estiloDato p{
+    margin: 10px;
+}
+.estiloDato input{
+    width: 100%;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+}
+
+.btn_estilo{
+    border: none;
+    width: 70%;
+    height: 50px;
+    margin: 20px;
+    background-color: #12bf35;
+    color: whitesmoke;
+    border-radius: 25px;
+    cursor: pointer;
+
+    
+}
+
+.btn_estilo:hover{
+    background-color: #118b0d;
+    color: whitesmoke;
+}
+
+.registrase{
+    margin: 10px;
+}
+
+.registrase a{
+    color: rgb(19, 156, 28);
+}

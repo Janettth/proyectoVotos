@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*background-color: aquamarine;*/
+    margin: 0 auto;
+}
+
+#titulo{
+    background-color: rgba(216, 216, 216, 0.635);
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+#titulo p{
+    margin: 10px;
+}
+#votos{
+    background-color: rgba(216, 216, 216, 0.635);
+    width: 90%;
+    display: flex;
+
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 20px;
+}
+.contenedorVoto{
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+    justify-content: center;
+}
+
+.img{
+    /*background-color: aqua;*/
+    width: 90%;
+    height: 90px;
+    margin: 5px;
+}
+
+.contenedorVoto img{
+    width: 80%;
+    text-align: center;
+}
+.contenedorVoto p{
+    padding: 5px;
+}
+.contenedorVoto input{
+    color: rgb(255, 255, 255);
+    background-color: rgb(67, 180, 22);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+}

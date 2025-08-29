@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="CSS/estiloIndex.css">
+</head>
+<body>
+    <div class="inicio">
+
+        <h2>Regístrate</h2>
+        <img src="assets/img/academia_logo.png" alt="">
+
+        <form action="PHP/registro.php" method="POST">
+            <div class="estiloDato">
+                <p>Nombre:</p>
+                <input type="text" name="nombre" id="registro_nombre">
+            </div>
+
+            <div class="estiloDato">
+                <p>Correo:</p>
+                <input type="text" name="correo" id="registro_correo">
+            </div>
+
+            <div class="estiloDato">
+                <p>Contraseña:</p>
+                <input type="text" name="contrasena" id="registro_contrasena">
+            </div>
+
+            <input type="button" value="Registrarse" class="btn_estilo" id="btn_registrar">
+
+        </form>
+
+        <div id="inciarSesionlink" class="registrase">
+            <p>¿Ya tienes una cuenta? <a href="index.html"> Inicia Sesión</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
