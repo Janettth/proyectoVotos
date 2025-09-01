@@ -12,17 +12,19 @@
         <img src="assets/img/academia_logo.png" alt="">
         
 
-        <div id="correo" class="estiloDato">
-            <p>Correo:</p>
-            <input type="email" name="" id="">
-        </div>
-        
-        <div id="contraseña" class="estiloDato">
-            <p>Contraseña: </p>
-            <input type="password" name="" id="">
-        </div>
+        <form action="PHP/login.php" method="POST">
+            <div id="correo" class="estiloDato">
+                <p>Correo:</p>
+                <input type="email" name="correo" required>
+            </div>
+            
+            <div id="contraseña" class="estiloDato">
+                <p>Contraseña: </p>
+                <input type="password" name="contrasena" required>
+            </div>
 
-        <input type="button" value="Iniciar Sesión" class="btn_estilo">
+            <input type="submit" value="Iniciar Sesión" class="btn_estilo">
+        </form>
 
         <div class="registrase">
             <p>¿No tienes cuenta? <a href="registro.html">Regístrate</a></p>

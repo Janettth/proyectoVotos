@@ -1,13 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 
 body{
     /*background-color: aquamarine;*/
     margin: 0 auto;
 }
 
+#contenedorPrincipal{
+    justify-content: center;
+     text-align: center;
+}
 #titulo{
     background-color: rgba(216, 216, 216, 0.635);
     text-align: center;
@@ -52,11 +59,88 @@ body{
 .contenedorVoto p{
     padding: 5px;
 }
-.contenedorVoto input{
+
+.contenedorVoto button[type="submit"]{
     color: rgb(255, 255, 255);
     background-color: rgb(67, 180, 22);
     border: none;
     padding: 10px;
     border-radius: 5px;
     width: 100px;
+}
+
+.contenedorVoto button[type="submit"]:hover{
+    background-color: rgb(35, 117, 3);
+}
+
+#cerrarSesion{
+    color: rgb(255, 255, 255);
+    background-color: #f59820;;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 90%;
+    height: 50px;
+}
+
+#cerrarSesion:hover{
+    background-color: #94232c;
+}
+
+#contenedorRegistro{
+    background-color: rgba(216, 216, 216, 0.635);
+    width: 90%;
+    padding: 15px;
+
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#resultados{
+    width: 90%;
+	margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.resultado{
+	 width: 50%;
+     background-color: rgb(255, 255, 255);
+	margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    padding: 15px;
+}
+
+.img_candidato{
+    width: 90px;
+    height: auto;
+    margin: 5px;
+}
+
+.nombre_condidato{
+    background-color: #2543a7;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#candidatosInfo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+        
+    background-color: rgb(67, 180, 22);
+    color: whitesmoke;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.votos_candidato{
+        align-content: center;
 }
